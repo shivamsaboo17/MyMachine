@@ -1,6 +1,6 @@
 # MyMachine 
 
->made with :heart: and AI
+>made with AI and :heart:
 
 ```c
 hello world!
