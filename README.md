@@ -1,3 +1,18 @@
+# MyMachine 
+
+>made with <3 and AI
+
+```c
+hello world!
+Welcome to the Machine Learning Hub
+Here you can connect with Machine Learning enthusiasts and build awesome stuff!!
+Also take a look at our projects or submit your own 
+
+```
+
+
+
+
 MyMachine is subdivided into the following:
 
  * [Algos](Algos/README.md)
