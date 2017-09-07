@@ -21,8 +21,11 @@ Connect with other students taking the same course and create awesome stuff!
 |               |				| 		|		|
 
 
+### How to Contribute?
 
-
+* Create seperate folder for each course in NAMEOFMMOC format
+* All Lecture slides and assignments should be there
+* Create seperate folders for each exercise for each course.
 
 
 
