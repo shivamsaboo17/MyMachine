@@ -38,7 +38,7 @@ Get all the algorithms you need and build the algorithms you can to help.
 
 
 ### Credits:
->book: machine learning - an algorithmic perspective
+book: machine learning - an algorithmic perspective
 
 
 
@@ -50,6 +50,12 @@ Get all the algorithms you need and build the algorithms you can to help.
 
 
 
-Our mission is to spread the power of AI. Training the machines to create stuff is our Caffeine
+> Our mission is to spread the power of AI. Training the machines to create stuff is our Caffeine
 
 
+## How to contribute:
+* Create a folder with the name of respective algorithm
+* Add your code there
+* Create a folder of Test cases and include your test cases there
+* Follow proper indentation 
+* Create a README file for your work
