@@ -1,6 +1,6 @@
 # MyMachine 
 
->made with :heart: and AI
+>made with AI and :heart:
 
 ```c
 hello world!
@@ -16,7 +16,7 @@ Also take a look at our projects or submit your own
 MyMachine is subdivided into the following:
 
  * [Algos](Algos/README.md)
- * [Resources](Resouces/READ)  
+ * [Resources](Resouces/README.md)  
  * [Coursehub](Coursehub/README.md)
  * [Projects](Projects/README.md)
 
