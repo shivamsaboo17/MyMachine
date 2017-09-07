@@ -17,10 +17,10 @@ Happy Coding
 
 
 
-###  curated list of Pourses:
+###  curated list of Projects:
 | Name   |   Lead Developer      |  Complete  |Under Construction|Description|
 | ------------- |:-------------:| -----:|------:|----------:|
-|  Twitter Sentiment analyst |      Varun Bafna        |  		|![alt text](/img/tick.png)	| link your readme here |
+|  Twitter Sentiment analyst |[Varun Bafna](https://github.com/varunbafna)|  		|![alt text](/img/tick.png)	| link your readme here |
 |               |               |	    |		||
 |               |				| 		|		||
 
