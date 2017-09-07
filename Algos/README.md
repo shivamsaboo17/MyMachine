@@ -17,7 +17,7 @@ Get all the algorithms you need and build the algorithms you can to help.
 ###  curated list of algos:
 | Algorithm    |    Python        | C++ |Javascript|
 | ------------- |:-------------:| -----:|------:|
-|  Linear Regression |      :+1:         | 		|		|
+|  Linear Regression | ![alt text](/img/tick.png)         | 		|		|
 |               |               |	    |		|
 |               |				| 		|		|
 

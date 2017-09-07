@@ -13,10 +13,10 @@ Connect with other students taking the same course and create awesome stuff!
 
 
 
-###  curated list of Courses:
+###  curated list of Standard Courses:
 | Name   |   Institute      |  Complete  |Under Construction|
 | ------------- |:-------------:| -----:|------:|
-|  Introduction to Machine Learning |      Stanford_Coursera         | 		|	:+1:	|
+|  Introduction to Machine Learning |      Stanford_Coursera         | 		|	![alt text](/img/tick.png)	|
 |               |               |	    |		|
 |               |				| 		|		|
 
