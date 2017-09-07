@@ -20,7 +20,8 @@ Happy Coding
 ###  curated list of Pourses:
 | Name   |   Lead Developer      |  Complete  |Under Construction|Description|
 | ------------- |:-------------:| -----:|------:|----------:|
-|  Twitter Sentiment analyst |      Varun Bafna        | 		|	:+1:	|link your readme here|
+
+|  Twitter Sentiment analyst |      Varun Bafna        | 		|![alt text](/img/tick.png)	|link your readme here|
 |               |               |	    |		||
 |               |				| 		|		||
 
