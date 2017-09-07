@@ -16,7 +16,7 @@ Also take a look at our projects or submit your own
 MyMachine is subdivided into the following:
 
  * [Algos](Algos/README.md)
- * [Resources](Resouces/README.md)  
+ * [Resources](Resources/README.md)  
  * [Coursehub](Coursehub/README.md)
  * [Projects](Projects/README.md)
 
