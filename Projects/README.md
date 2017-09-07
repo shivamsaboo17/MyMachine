@@ -30,7 +30,20 @@ Happy Coding
 
 
 
-Our mission is to spread the power of AI. Training the machines to create stuff is our Caffeine
+> Our mission is to spread the power of AI. Training the machines to create stuff is our Caffeine
 
 
+## How to contribute:
+### To create a new project 
+* Create a well defined readme explaining your project.
+* Structure your project in accordance with the best practices.
+* Follow proper indentation.
+* Link all the members involved in the project in the readme with their account links.
+### To contribute in an existing project
+* Create an issue that you wish to work on that project.
+* Properly label and comment out the issue.
+* Follow the code of conduct of the respective project you're working on.
+* Follow the coding practices of the project you're working on.
+* Properly comment the Pull Request.
 
+> Happy Coding :octocat:
