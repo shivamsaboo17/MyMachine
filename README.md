@@ -59,4 +59,3 @@ Our mission is to spread the power of AI. Training machines to create stuff is o
 
 >>[Khilan Ravani](https://github.com/khilanravani)
 >>[Shivam Saboo](https://github.com/shivamsaboo17)
-
