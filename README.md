@@ -56,6 +56,7 @@ Our mission is to spread the power of AI. Training machines to create stuff is o
 >Managed by: 
 >>[Heet Sankesara](https://github.com/Hsankesara)  
 >>[Ajay Guru](https://github.com/guru-DeV-002)
+
 >>[Khilan Ravani](https://github.com/khilanravani)
 >>[Shivam Saboo](https://github.com/shivamsaboo17)
 
