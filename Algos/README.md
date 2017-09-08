@@ -18,8 +18,8 @@ Get all the algorithms you need and build the algorithms you can to help.
 | Algorithm    |    Python        | C++ |Javascript|
 | ------------- |:-------------:| -----:|------:|
 |  Linear Regression | ![alt text](/img/tick.png)         | 		|		|
-|               |               |	    |		|
-|               |				| 		|		|
+|  Gradient Descent |               |	    |		|
+|  SVM  |				| 		|		|
 
 
 
@@ -50,12 +50,12 @@ book: machine learning - an algorithmic perspective
 
 
 
-> Our mission is to spread the power of AI. Training the machines to create stuff is our Caffeine
+> Our mission is to spread the power of AI. Training the machines to create stuff is our Caffeine.
 
 
 ## How to contribute:
-* Create a folder with the name of respective algorithm
-* Add your code there
-* Create a folder of Test cases and include your test cases there
-* Follow proper indentation 
-* Create a README file for your work
+* Create a folder with the name of respective algorithm.
+* Add your code there.
+* Create a folder of Test cases and include your test cases there.
+* Follow proper indentation. 
+* Create a README file for your work.
