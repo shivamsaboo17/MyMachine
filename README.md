@@ -1,13 +1,12 @@
 # MyMachine 
 
->made with AI and :heart:
+>Made with AI and :heart:
 
 ```c
-hello world!
-Welcome to the Machine Learning Hub
-Here you can connect with Machine Learning enthusiasts and build awesome stuff!!
-Also take a look at our projects or submit your own 
-
+Hello world!
+Welcome to the Machine Learning Hub.
+Here, you can connect with Machine Learning enthusiasts and build awesome stuff!!
+Also you can refer to our projects or submit your own. 
 ```
 
 
@@ -45,7 +44,7 @@ Visit each folder to find their readme files.
 
 
 
-Our mission is to spread the power of AI. Training the machines to create stuff is our Caffeine
+Our mission is to spread the power of AI. Training machines to create stuff is our Caffeine.
 
 ### Credits:
 
@@ -57,4 +56,6 @@ Our mission is to spread the power of AI. Training the machines to create stuff 
 >Managed by: 
 >>[Heet Sankesara](https://github.com/Hsankesara)  
 >>[Ajay Guru](https://github.com/guru-DeV-002)
+>>[Khilan Ravani](https://github.com/khilanravani)
+>>[Shivam Saboo](https://github.com/shivamsaboo17)
 
