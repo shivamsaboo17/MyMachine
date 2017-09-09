@@ -9,7 +9,7 @@ PATH: $GOPATH/bin:$PATH
 install:
   - sudo apt-get update
   - sudo apt-get install python-tk
-  - pip install -r requirement.txt
+  - pip2 install -r requirement.txt
 
 script:
   - ./test.sh
