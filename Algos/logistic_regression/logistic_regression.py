@@ -3,7 +3,7 @@ import numpy as np
 from scipy.special import expit
 from scipy import optimize
 
-datafile = "ex2data1"
+datafile = "Algos/logistic_regression/ex2data1"
 cols = np.loadtxt(datafile,delimiter=",",usecols=(0,1,2),unpack=True)
 
 x = np.transpose(np.array(cols[:-1]))

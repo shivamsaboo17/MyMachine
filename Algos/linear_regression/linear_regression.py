@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-datafile = 'data1'
+datafile = 'Algos/linear_regression/data1'
 cols = np.loadtxt(datafile,delimiter=',',usecols=(0,1),unpack=True) #Read in comma separated data
 #Form the usual "X" matrix and "y" vector
 X = np.transpose(np.array(cols[:-1]))

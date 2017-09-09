@@ -1,0 +1,15 @@
+language: python
+  -"2.7"
+  -"3.6"
+
+env:
+  GOPATH: $HOME/go
+PATH: $GOPATH/bin:$PATH
+
+install:
+  - sudo apt-get update
+  - sudo apt-get install python-tk
+  - pip install -r requirement.txt
+
+script:
+  - ./test.sh
