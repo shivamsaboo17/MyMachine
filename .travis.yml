@@ -7,11 +7,15 @@ env:
   GOPATH: $HOME/go
 PATH: $GOPATH/bin:$PATH
 
+before_script: # configure a headless display to test plot generation
+- "export DISPLAY=:99.0"
+- "sh -e /etc/init.d/xvfb start"
+- sleep 3 # give xvfb some time to star
+
 install:
   - sudo apt-get update
   - sudo apt-get install python-tk
-  - sudo -H pip2 install --upgrade pip
   - sudo pip install -r requirement.txt
 
 script:
-  - sudo ./test.sh
+  - ./test.sh 
