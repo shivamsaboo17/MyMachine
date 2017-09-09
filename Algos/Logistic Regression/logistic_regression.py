@@ -1,7 +1,10 @@
+import warnings
+import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.special import expit
 from scipy import optimize
+warnings.filterwarnings("ignore",category=matplotlib.cbook.mplDeprecation)
 
 datafile = "ex2data1"
 cols = np.loadtxt(datafile,delimiter=",",usecols=(0,1,2),unpack=True)
@@ -48,4 +51,6 @@ boundary_ys = (-1./theta[2])*(theta[0] + theta[1]*boundary_xs)
 plotData()
 plt.plot(boundary_xs,boundary_ys,'b-',label='Decision Boundary')
 plt.legend()
-plt.show()
+plt.draw()
+plt.pause(1)
+
