@@ -15,4 +15,4 @@ This issue is about
 	- [ ] I ensure that I am not already assigned to 2 or more issues.
 - [ ] I will send my PR only after I'm assigned to this issue by any maintainer.
 
-<!-- It's not necessary for all for points to be checked, we will look upon what is required once you open an issue. -->
+ It's not necessary for all for points to be checked, we will look upon what is required once you open an issue. 
