@@ -14,4 +14,4 @@ install:
   - sudo pip install -r requirement.txt
 
 script:
-  - ./test.sh
+  - sudo ./test.sh
