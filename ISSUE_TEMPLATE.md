@@ -3,10 +3,19 @@ This issue is about
   - [ ] Project
   - [ ] Resources
     - [ ] Add new resource
-    - [ ] Review existing resources
-  - [ ] Course
-    - [ ] Add new course
-    - [ ] Review existing course
+    	- [ ] Course
+        - [ ] Language support
+        - [ ] Podcasts
+        - [ ] Books 
+        - [ ] tools
+        - [ ] Links to other git repo
+    - [ ] Curate existing resources
+    	- [ ] Course
+        - [ ] Language support
+        - [ ] Podcasts
+        - [ ] Books 
+        - [ ] tools
+        - [ ] Links to other git repo
   - [ ] Bug fixes
 - [ ] Issue Title is in form `Algo/Project Name [Language]`.
 - [ ] I searched or browsed the repo’s other issues to ensure this is not a duplicate.
