@@ -3,10 +3,19 @@ This issue is about
   - [ ] Project
   - [ ] Resources
     - [ ] Add new resource
-    - [ ] Review existing resources
-  - [ ] Course
-    - [ ] Add new course
-    - [ ] Review existing course
+    	- [ ] Course
+        - [ ] Language support
+        - [ ] Podcasts
+        - [ ] Books 
+        - [ ] tools
+        - [ ] Links to other git repo
+    - [ ] Curate existing resources
+    	- [ ] Course
+        - [ ] Language support
+        - [ ] Podcasts
+        - [ ] Books 
+        - [ ] tools
+        - [ ] Links to other git repo
   - [ ] Bug fixes
 - [ ] Issue Title is in form `Algo/Project Name [Language]`.
 - [ ] I searched or browsed the repo’s other issues to ensure this is not a duplicate.
@@ -14,5 +23,5 @@ This issue is about
 - [ ] Assign this issue to me (I want to work on this).
 	- [ ] I ensure that I am not already assigned to 2 or more issues.
 - [ ] I will send my PR only after I'm assigned to this issue by any maintainer.
-
+- [ ] I understand that I will be un-assigned from an issue if I do not work on it for a week.
  It's not necessary for all for points to be checked, we will look upon what is required once you open an issue. 

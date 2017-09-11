@@ -1,9 +1,11 @@
+import warnings
+import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.special import expit
 from scipy import optimize
-
-datafile = "Algos/logistic_regression/ex2data1"
+warnings.filterwarnings("ignore",category=matplotlib.cbook.mplDeprecation)
+datafile = "Algos/logistic_regression/data2"
 cols = np.loadtxt(datafile,delimiter=",",usecols=(0,1,2),unpack=True)
 
 x = np.transpose(np.array(cols[:-1]))
@@ -48,4 +50,6 @@ boundary_ys = (-1./theta[2])*(theta[0] + theta[1]*boundary_xs)
 plotData()
 plt.plot(boundary_xs,boundary_ys,'b-',label='Decision Boundary')
 plt.legend()
-plt.show()
+plt.draw()
+plt.pause(1)
+

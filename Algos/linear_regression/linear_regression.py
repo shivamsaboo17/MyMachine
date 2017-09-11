@@ -1,5 +1,8 @@
+import warnings
+import matplotlib
 import numpy as np
 import matplotlib.pyplot as plt
+warnings.filterwarnings("ignore",category=matplotlib.cbook.mplDeprecation)
 
 datafile = 'Algos/linear_regression/data1'
 cols = np.loadtxt(datafile,delimiter=',',usecols=(0,1),unpack=True) #Read in comma separated data
@@ -9,12 +12,6 @@ y = np.transpose(np.array(cols[-1:]))
 m = y.size # number of training examples
 #Insert the usual column of 1's into the "X" matrix
 X = np.insert(X,0,1,axis=1)
-
-plt.figure(figsize=(10,6))
-plt.plot(X[:,1],y[:,0],'rx',markersize=10)
-plt.grid(True) #Always plot.grid true!
-plt.ylabel('Profit in $10,000s')
-plt.xlabel('Population of City in 10,000s')
 
 iterations = 1500
 alpha = 0.01
@@ -71,4 +68,9 @@ plt.grid(True) #Always plot.grid true!
 plt.ylabel('Profit in $10,000s')
 plt.xlabel('Population of City in 10,000s')
 plt.legend()
-plt.show()
+plt.draw()
+plt.pause(1)
+print('Hypothesis: h(x) = %0.2f + %0.2fx'%(theta[0],theta[1]))
+
+
+
