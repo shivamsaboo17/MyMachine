@@ -1,4 +1,5 @@
-# Algorithms
+![alt text](/logo.png)
+## Algorithms
 
 >made with AI and :heart:
 
