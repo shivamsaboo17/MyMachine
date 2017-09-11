@@ -1,4 +1,6 @@
-# MyMachine 
+![alt text](logo.png)
+
+## MyMachine 
 
 >Made with AI and :heart:
 
