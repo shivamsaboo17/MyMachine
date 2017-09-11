@@ -1,4 +1,5 @@
-# Projects
+![alt text](/logo.png)
+## Projects
 
 >made with AI and :heart:
 
