@@ -1,4 +1,4 @@
-![alt text](logo.png)
+<img src="logo.png" alt="Drawing" style="width: 200px;height: 1px;align: center;"/>
 
 ## MyMachine 
 
@@ -56,4 +56,5 @@ Our mission is to spread the power of AI. Training machines to create stuff is o
 >>[Ajay Guru](https://github.com/guru-DeV-002)</br>
 >>[Khilan Ravani](https://github.com/khilanravani)</br>
 >>[Shivam Saboo](https://github.com/shivamsaboo17)</br>
+
 
