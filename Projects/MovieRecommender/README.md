@@ -13,4 +13,10 @@ From terminal in  ```MyMachine``` directory run command
 
 ```python Projects/MovieRecommender/main.py```
 
+## Demo Image
+
+![alt text](Projects/MovieRecommender/demo.png)
+
+> Dataset courtesy [Grouplens ](https://grouplens.org/datasets/movielens/)
+
 > Created by [Heet Sankesara](https://github.com/hsankesara) with :heart:
