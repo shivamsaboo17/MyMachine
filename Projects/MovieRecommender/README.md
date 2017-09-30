@@ -15,7 +15,9 @@ From terminal in  ```MyMachine``` directory run command
 
 ## Demo Image
 
-![alt text](Projects/MovieRecommender/demo.png)
+![Demo](demo.png)
+
+<p align="center"> 
 
 > Dataset courtesy [Grouplens ](https://grouplens.org/datasets/movielens/)
 
