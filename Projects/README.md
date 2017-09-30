@@ -21,7 +21,7 @@ Happy Coding
 | Name   |   Lead Developer      |  Complete  |Under Construction|Description|
 | ------------- |:-------------:| -----:|------:|----------:|
 |  Twitter Sentiment analyst |[Varun Bafna](https://github.com/varunbafna)|  		|![alt text](/img/tick.png)	| link your readme here |
-|  Movie Recommender         | [Heet Sankesara](https://github.com/hsankesara)|	![alt text](/img/tick.png) |  |[MovieRecommender](projects/MovieRecommender/README.md)
+|  Movie Recommender         | [Heet Sankesara](https://github.com/hsankesara)|	![alt text](/img/tick.png) |  |[MovieRecommender](MovieRecommender/)
 
 
 
