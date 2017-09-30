@@ -60,8 +60,8 @@ def random_survey(movies_name, num_movies, number_of_questions):
     response = {}
     while n != number_of_questions:
         mid = random.randint(1, num_movies)
-        print("How Much You rate", movies_name[mid],
-              "between 1 to 5 (insert -1 if you have not seen it)")
+        print "How Much You rate", movies_name[mid], \
+              "between 1 to 5 (insert -1 if you have not seen it)"
         try:
             num = input()
             if type(num) == int or type(num) == float:
