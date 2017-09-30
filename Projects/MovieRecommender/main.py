@@ -5,6 +5,11 @@ import csv
 
 
 def find_top_five(personalized_array):
+    '''
+    Returns top 5 recommended movies_name
+    :param personalized_array: array after user filled survey
+    :return: return array of  top 5 highest rated movie
+    '''
     top_five = sorted(range(len(personalized_array)),
                       key=lambda i: personalized_array[i])[-5:]
     top_five.reverse()
@@ -12,6 +17,14 @@ def find_top_five(personalized_array):
 
 
 def calculate_rating(response, similarity, num_movies):
+    '''
+    Calculate rating of each movie after user filled survey form
+    :param response: array of user response
+    :param similarity:  similarity 2D dict-array contain
+                        relation between each movie
+    :param num_movies: Number of Movies in given dataset
+    :return: return user-biased rating of each movie
+    '''
     personalized_array = [0] * (num_movies + 1)
     for keys, values in response.items():
         for i in xrange(1, num_movies):
@@ -20,6 +33,11 @@ def calculate_rating(response, similarity, num_movies):
 
 
 def parse_similarity(num_movies):
+    '''
+    get similarity matrix from preprocessing.csv
+    :param num_movies: hold data of number of movies
+    :return: similarity 2D dict-array
+    '''
     similarity = {}
     preprocessed_file = open(
         'Projects/MovieRecommender/preprocessed_data.csv', "r")
@@ -31,6 +49,13 @@ def parse_similarity(num_movies):
 
 
 def random_survey(movies_name, num_movies, number_of_questions):
+    '''
+    take random survey from user to calculate user-biased rating
+    :param movies_name: array contains name of movies
+    :param num_movies: contain number of movies presented in dataset
+    :param number_of_questions: contain number of questions
+                                should asked to user
+    '''
     n = 0
     response = {}
     while n != number_of_questions:
@@ -57,6 +82,9 @@ def random_survey(movies_name, num_movies, number_of_questions):
 
 
 def main():
+    '''
+    Main function from where whole programme is runnning
+    '''
     similarity = None
     number_of_questions = 10
     movies_name = None

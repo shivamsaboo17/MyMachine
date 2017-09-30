@@ -3,7 +3,11 @@ import math
 
 
 class movie():
-
+    '''
+    Movie class contain name of movie
+    It also contain users like that rated that movie
+    And also their respective rating
+    '''
     def __init__(self, name, uid=[], rating=[]):
         self.name = name
         self.uid = uid
@@ -15,6 +19,13 @@ class movie():
 
 
 def pearson_score(i, j, movies):
+    '''
+    calculate pearson score between two movies
+    :param i: id of 1st movie
+    :param j: id of 2nd movie
+    :param movies: array whose each element is an object of movie
+    :return: returns pearson score b/w ith and jth movie
+    '''
     n = 0
     sum1 = 0
     sum2 = 0
@@ -43,6 +54,10 @@ def pearson_score(i, j, movies):
 
 
 def save_similarity(similarity):
+    '''
+    save similarity matrix so we don't have to calculate it always
+    :param similarity: 2D similarity dict-matrix
+    '''
     new_file = open("Projects/MovieRecommender/preprocessed_data.csv", "w")
     writer = csv.writer(new_file)
     for i in similarity:
@@ -53,6 +68,12 @@ def save_similarity(similarity):
 
 
 def get_similarity(similarity, movies):
+    '''
+    Get similarity matrix
+    :param similarity: empty simlarity matrix
+    :param movies: array whose each element is an object of movie
+    :return: returns similarity matrix
+    '''
     for i in movies:
         similarity[i] = {}
         for j in movies:
@@ -64,6 +85,11 @@ def get_similarity(similarity, movies):
 
 
 def fill_movies(movies):
+    '''
+    fill movies dict from movies.csv
+    :param movies: empty dict which will contain movies name
+    :return: return filled movies array
+    '''
     movie_file = open('Projects/MovieRecommender/MovieData/movies.csv', "r")
     movie_reader = csv.reader(movie_file)
     for row in movie_reader:
@@ -73,6 +99,10 @@ def fill_movies(movies):
 
 
 def preprocess():
+    '''
+    execute if preprocessed_data.csv is not process
+    returns movies_name  and similarity array
+    '''
     movies_name = {}
     movies_name = fill_movies(movies_name)
     user_file = open('Projects/MovieRecommender/MovieData/rating.csv', "r")
@@ -92,5 +122,8 @@ def preprocess():
 
 
 def get_movies_name():
+    '''
+    return movies_name array
+    '''
     movies_name = {}
     return fill_movies(movies_name)
