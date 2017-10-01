@@ -1,7 +1,6 @@
-import numpy
-import Pycluster
 from __future__ import division
 from random import random
+import numpy
 
 # init means and data to random values
 # use real data in your code
