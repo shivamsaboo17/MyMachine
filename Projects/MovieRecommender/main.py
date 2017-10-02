@@ -61,22 +61,22 @@ def random_survey(movies_name, num_movies, number_of_questions):
     while n != number_of_questions:
         mid = random.randint(1, num_movies)
         print "How Much You rate", movies_name[mid], \
-              "between 1 to 5 (insert -1 if you have not seen it)"
+              "between -5 to 5 (insert -9 if you have not seen it)"
         try:
-            num = input()
-            if type(num) == int or type(num) == float:
-                if num <= 5.0 and num >= 1.0:
+            num = int(raw_input())
+            if isinstance(num, int) or isinstance(num, float):
+                if num <= 5.0 and num >= -5.0:
                     if mid not in response:
                         n += 1
                     response[mid] = num
-                elif num != -1:
-                    print "please rate between 1 to 5"
+                elif num != -9:
+                    print "please rate between -5 to 5"
                 else:
                     print "Here's another option"
             else:
-                print "please insert integer of float between 1 to 5"
+                print "please insert number between -5 to 5"
         except:
-            print "Insert Integers Only"
+            print "Insert numbers Only"
             print "Now Fill this survey correctly!!!"
     return response
 

@@ -3,10 +3,6 @@ sudo: required
 language: python
   -"2.7"
 
-env:
-  GOPATH: $HOME/go
-PATH: $GOPATH/bin:$PATH
-
 before_script: # configure a headless display to test plot generation
 - "export DISPLAY=:99.0"
 - "sh -e /etc/init.d/xvfb start"
@@ -18,4 +14,5 @@ install:
   - sudo pip install -r requirement.txt
 
 script:
-  - ./test.sh 
+  - ./test.sh
+  - ./test_project.sh
