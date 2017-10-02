@@ -1,6 +1,6 @@
 import preprocessing
 import os.path as path
-import random
+from random import SystemRandom as srand
 import csv
 
 
@@ -59,7 +59,7 @@ def random_survey(movies_name, num_movies, number_of_questions):
     n = 0
     response = {}
     while n != number_of_questions:
-        mid = random.randint(1, num_movies)
+        mid = srand().randint(1, num_movies)
         print "How Much You rate", movies_name[mid], \
               "between -5 to 5 (insert -9 if you have not seen it)"
         try:
@@ -75,7 +75,7 @@ def random_survey(movies_name, num_movies, number_of_questions):
                     print "Here's another option"
             else:
                 print "please insert number between -5 to 5"
-        except:
+        except ValueError:
             print "Insert numbers Only"
             print "Now Fill this survey correctly!!!"
     return response

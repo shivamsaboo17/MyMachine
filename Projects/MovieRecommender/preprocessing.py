@@ -8,7 +8,7 @@ class movie():
     It also contain users like that rated that movie
     And also their respective rating
     '''
-    def __init__(self, name, uid=[], rating=[]):
+    def __init__(self, name, uid, rating):
         self.name = name
         self.uid = uid
         self.rating = rating
