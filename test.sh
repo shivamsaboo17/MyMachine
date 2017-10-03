@@ -2,7 +2,7 @@
 set -e
 
 echo "Testing C++ files..."
-for i in $(ls -1 */*/*.cpp); do
+for i in $(ls -1 Algos/*/*.cpp); do
     echo "    Compiling $i - g++ $i -lm -std=c++11"
     g++ $i -lm -std=c++11
     echo "    Running $i - ./a.out > /dev/null"
@@ -14,7 +14,7 @@ done
 echo ""
 
 echo "Testing Python files..."
-for i in $(ls -1 */*/*.py); do
+for i in $(ls -1 Algos/*/*.py); do
     echo "    Running $i - python2 $i > /dev/null"
     python2 $i > /dev/null
     echo ""
@@ -23,7 +23,7 @@ done
 echo ""
 
 echo "Running JavaScript files..."
-for i in $(ls -1 */*/*.js); do
+for i in $(ls -1 Algos/*/*.js); do
     echo "    Running $i - node --use-strict --harmony $i > /dev/null"
     node --use-strict --harmony $i > /dev/null
 done
