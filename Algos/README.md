@@ -22,7 +22,7 @@ Get all the algorithms you need and build the algorithms you can to help.
 |  Gradient Descent |               |	    |		|
 |  SVM  |				| 		|		|
 |  Logistic Regression	|	![alt text](/img/tick.png)			| 		|		|
-
+|  K Means	|	![alt text](/img/tick.png)			| 		|		|
 
 
 
