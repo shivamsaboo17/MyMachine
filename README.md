@@ -1,9 +1,9 @@
 <img src="logo.png" alt="Drawing" style="width: 200px;height: 1px;align: center;"/>
 
 ## MyMachine 
-[![Build Status](https://travis-ci.org/hsankesara/mymachine.svg?branch=master)](https://travis-ci.org/hsankesara/mymachine)
-[![Join the chat at https://gitter.im/MyMachine/Lobby](https://badges.gitter.im/MyMachine.svg)](https://gitter.im/MyMachine?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![GitHub issues](https://img.shields.io/github/issues/badges/shields.svg)](https://github.com/Hsankesara/MyMachine/issues)
+[![Build Status](https://travis-ci.org/Hsankesara/MyMachine.svg?branch=master)](https://travis-ci.org/Hsankesara/MyMachine)
+[![Join the chat at https://gitter.im/MyMachine/Lobby?source=orgpage](https://badges.gitter.im/MyMachine.svg)](https://gitter.im/MyMachine?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![GitHub issues](https://img.shields.io/github/issues/Hsankesara/MyMachine.svg)](https://github.com/Hsankesara/MyMachine/issues)
 
 >Made with AI and :heart:
 
