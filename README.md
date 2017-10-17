@@ -4,6 +4,8 @@
 [![Build Status](https://travis-ci.org/Hsankesara/MyMachine.svg?branch=master)](https://travis-ci.org/Hsankesara/MyMachine)
 [![Join the chat at https://gitter.im/MyMachine/Lobby?source=orgpage](https://badges.gitter.im/MyMachine.svg)](https://gitter.im/MyMachine?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![GitHub issues](https://img.shields.io/github/issues/Hsankesara/MyMachine.svg)](https://github.com/Hsankesara/MyMachine/issues)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Hsankesara/MyMachine/issues)
+[![Contributors](https://img.shields.io/github/contributors/Hsankesara/MyMachine.svg)](https://github.com/Hsankesara/MyMachine/graphs/contributors)
 
 >Made with AI and :heart:
 
