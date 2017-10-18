@@ -2,6 +2,8 @@
 
 ## MyMachine 
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/aa99aac5a29547a89e486c395eb25032)](https://www.codacy.com/app/201651005/MyMachine?utm_source=github.com&utm_medium=referral&utm_content=Hsankesara/MyMachine&utm_campaign=badger)
+
 >Made with AI and :heart:
 
 ```c
