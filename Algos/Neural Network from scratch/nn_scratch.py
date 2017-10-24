@@ -23,7 +23,7 @@ class neuralNetwork:
 
         # activation function is the sigmoid function
         self.activation_function = lambda x: scipy.special.expit(x)
-        self.inverse_activation_function = lambda x: scipy.special.logit(x)
+        
         pass
 
     # train the neural network
@@ -74,33 +74,7 @@ class neuralNetwork:
 
         return final_outputs
 
-    def backquery(self, targets_list):
-        # transpose the targets list to a vertical array
-        final_outputs = np.array(targets_list, ndmin=2).T
-
-        # calculate the signal into the final output layer
-        final_inputs = self.inverse_activation_function(final_outputs)
-
-        # calculate the signal out of the hidden layer
-        hidden_outputs = np.dot(self.who.T, final_inputs)
-        # scale them back to 0.01 to .99
-        hidden_outputs -= np.min(hidden_outputs)
-        hidden_outputs /= np.max(hidden_outputs)
-        hidden_outputs *= 0.98
-        hidden_outputs += 0.01
-
-        # calculate the signal into the hidden layer
-        hidden_inputs = self.inverse_activation_function(hidden_outputs)
-
-        # calculate the signal out of the input layer
-        inputs = np.dot(self.wih.T, hidden_inputs)
-        # scale them back to 0.01 to .99
-        inputs -= np.min(inputs)
-        inputs /= np.max(inputs)
-        inputs *= 0.98
-        inputs += 0.01
-
-        return inputs
+    
 
 
 # Define all the variables for creating the class instance
@@ -172,17 +146,3 @@ scorecard_array = np.asarray(scorecard)
 print ("performance = ", scorecard_array.sum() / scorecard_array.size)
 print("Accuracy increases to > 97% if we train the model 5 times but training takes ~10 minutes to train")
 print("The tensorflow implementation of the same yeilds ~ 98% accuracy")
-
-label = 0
-# create the output signals for this label
-targets = np.zeros(outputnodes) + 0.01
-# all_values[0] is the target label for this record
-targets[label] = 0.99
-
-
-# get image data
-image_data = n.backquery(targets)
-
-# plot image data
-matplotlib.pyplot.imshow(image_data.reshape(28,28), cmap='Greys', interpolation='None')
-matplotlib.pyplot.show()
