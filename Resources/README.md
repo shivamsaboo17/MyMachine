@@ -14,14 +14,13 @@ You are always welcome to add your favourite resources in this evergrowing list.
 ```
 
 ## Books
-* [Bishop - Pattern Recognition And Machine Learning](Resources/Bishop\ \-\ \Pattern\ \Recognition\ \And\ \Machine\ \Learning\ \-\ \Springer\ \2006.pdf)
-* [Convex_Opt_Boyd](Resources/Convex_Opt_Boyd.pdf)
-* [Digital image processing by Rafael](Resources/Digital_image_processing_by_Rafael_C._Go.pdf)
-* [Introduction To ML](Resources/Introduction_To_ML_Partial_2.pdf)
-* [Machine Learning Beginner](Resources/Machine\ \Learning\ \Beginner.pdf)
-* [McGrawHill - Machine Learning -Tom Mitchell](Resources/McGrawHill\ \-\ \Machine\ \Learning\ \-Tom\ \Mitc []hell.pdf)
-* [programming.collective.intelligence](Resources/programming.collective.intelligence.aug.2007.pdf)
-* [Machine Learning in python](Resources/Machine\ \Learning\ \in\ \python.pdf)
+* [Bishop - Pattern Recognition And Machine Learning](/Resources/Bishop-Pattern.Recognition.And.Machine.Learning.pdf)
+* [Convex_Opt_Boyd](/Resources/Convex_Opt_Boyd.pdf)
+* [Introduction To ML](/Resources/Introduction_To_ML_Partial_2.pdf)
+* [Machine Learning Beginner](/Resources/Machine-Learning-Beginner.pdf)
+* [McGrawHill - Machine Learning -Tom Mitchell](/Resources/McGrawHill-Machine-Learning-Tom-Mitchell.pdf)
+* [programming.collective.intelligence](/Resources/programming.collective.intelligence.aug.2007.pdf)
+* [Machine Learning in python](/Resources/Machine-Learning-in-python.pdf)
 
 ## Tutorials
 * [Convolutional Neural Networks for Visual Recognition (Spring 2017)](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv)
