@@ -27,9 +27,9 @@ You are always welcome to add your favourite resources in this evergrowing list.
 * [Natural Language Processing with Deep Learning (Winter 2017)](https://www.youtube.com/playlist?list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6)
 
 ## Github for Learners
-[TensorFlow](https://github.com/tensorflow/tensorflow)
-[Siraj Raval](https://github.com/llSourcell)
+* [TensorFlow](https://github.com/tensorflow/tensorflow)
+* [Siraj Raval](https://github.com/llSourcell)
 
 ## Youtube Channels
-[Stanford University School of Engineering](https://www.youtube.com/channel/UCdKG2JnvPu6mY1NDXYFfN0g)
-[Siraj Raval](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A)
+* [Stanford University School of Engineering](https://www.youtube.com/channel/UCdKG2JnvPu6mY1NDXYFfN0g)
+* [Siraj Raval](https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A)
