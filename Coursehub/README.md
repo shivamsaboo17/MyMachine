@@ -1,4 +1,5 @@
-# Coursehub
+![alt text](/logo.png)
+## Coursehub
 
 >made with AI and :heart:
 

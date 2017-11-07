@@ -9,6 +9,6 @@
   "author": "guruDev",
   "license": "ISC",
   "dependencies": {
-    "regression": "^2.0.0"
+    "plotly": "^1.0.6",
   }
 }
