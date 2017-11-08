@@ -14,5 +14,6 @@ install:
   - sudo pip install -r requirement.txt
 
 script:
+  - tar xvf mnist_train.zip
   - ./test.sh
   - ./test_project.sh
